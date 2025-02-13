@@ -76,7 +76,7 @@ export default function Checkout() {
         {loading ? (
           <></>
         ) : (
-          <div className="px-3 md:px-4 md:w-[70%] mx-auto">
+          <div className="px-3 md:px-4 md:w-[80%] mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-x-20">
               <div className="lg:col-span-3">
                 <div>
