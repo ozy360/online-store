@@ -3,7 +3,7 @@ import { useEffect, useState, Suspense } from "react";
 import axios from "axios";
 import useStore from "./state";
 import LoadingSpinner from "./loadingSpinner";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import SearchParams from "./serachParams";
 
 import Container from "./container";
