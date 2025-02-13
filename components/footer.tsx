@@ -6,12 +6,10 @@ export default function Footer() {
     <>
       <div className="text-muted-foreground pt-[100px] text-sm">
         <div className="flex space-x-4 items-center justify-center md:justify-end mb-4">
-          <a href="" className="hover:underline">
-            Instagram
+          <a href="/login" className="hover:underline">
+            Dashboard
           </a>
-          <a href="" className="hover:underline">
-            Twitter
-          </a>
+
           <a href="" className="hover:underline">
             Pinterest
           </a>
