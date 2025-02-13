@@ -10,8 +10,12 @@ export default function Footer() {
             Dashboard
           </a>
 
-          <a href="" className="hover:underline">
-            Pinterest
+          <a
+            href="https://github.com/ozy360"
+            className="hover:underline"
+            target="_blank"
+          >
+            Github
           </a>
           <a href="" className="hover:underline">
             support@yourbusinessname.com
