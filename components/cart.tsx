@@ -25,7 +25,6 @@ export default function Cart() {
   const router = useRouter();
   const { items, addItem, deleteItem, incrementQuantity, decrementQuantity } =
     useStore();
-  console.log(items);
   const result = items.reduce(
     (acc, item) => {
       acc.totalPrice += item.price;

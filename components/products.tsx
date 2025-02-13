@@ -77,8 +77,8 @@ export default function Products() {
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-4 md:gap-8  sm:space-y-0">
           <>
             {productData?.map((x: any) => (
-              <Card className="bg-transparent">
-                <div key={x._id} className="px-2 pt-2 pb-1">
+              <Card key={x._id} className="bg-transparent">
+                <div className="px-2 pt-2 pb-1">
                   <img
                     src={x.images[0]}
                     className="w-full bg-gray-200 cursor-pointer rounded-md"
