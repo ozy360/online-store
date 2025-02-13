@@ -46,7 +46,7 @@ export default function Login() {
         ) : (
           <>
             <div className="px-2 w-[95%] sm:w-[30%] mx-auto">
-              {/* <div className="text-right">
+              <div className="text-right">
                 <span>
                   <b>Email: </b>
                   {envemail}
@@ -56,7 +56,7 @@ export default function Login() {
                   <b>Password: </b>
                   {envpass}
                 </span>
-              </div> */}
+              </div>
               <Card className="bg-white p-4">
                 <div className="space-y-5">
                   <p className="text-xl font-semibold">Gain Access</p>
