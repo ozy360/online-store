@@ -10,6 +10,7 @@ import Container from "./container";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Plus, PlusIcon } from "lucide-react";
+import { Toaster, toast } from "sonner";
 
 export default function Products() {
   const searchParams = (
@@ -65,6 +66,7 @@ export default function Products() {
   function addItemFunc(item: string) {
     const filtered = productData.find((x) => x._id === item);
     addItem(filtered as any, 1);
+    toast.success("Product added");
   }
 
   if (!productData.length) {
@@ -73,6 +75,7 @@ export default function Products() {
 
   return (
     <Container>
+      <Toaster position="top-center" />
       <div className="z-0">
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-4 md:gap-8  sm:space-y-0">
           <>
@@ -86,7 +89,7 @@ export default function Products() {
                     onClick={() => router.push(`product/${x._id}`)}
                   />
                   <div
-                    className="rounded-b-lg flex justify-between items-center"
+                    className="rounded-b-lg flex justify-between items-center mt-2"
                     key={x._id}
                   >
                     <div>

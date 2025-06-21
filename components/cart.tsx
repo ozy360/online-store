@@ -101,14 +101,6 @@ export default function Cart() {
                               >
                                 <Minus size={15} />
                               </ToggleGroupItem>
-                              {/* <div
-                                // size={"icon"}
-                                // variant={"ghost"}
-                                onClick={() => deleteItem(x._id)}
-                                className="text-muted-foreground ml-1 hover:cursor-pointer"
-                              >
-                                <Trash2 size={18} strokeWidth={1.2} />
-                              </div> */}
                             </ToggleGroup>
                           </div>
                         </div>

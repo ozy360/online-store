@@ -45,7 +45,7 @@ export default function Login() {
           <LoadingSpinner />
         ) : (
           <>
-            <div className="px-2 w-[95%] sm:w-[30%] mx-auto">
+            <div className="w-full max-w-md mx-auto px-4">
               <div className="text-right">
                 <span>
                   <b>Email: </b>
